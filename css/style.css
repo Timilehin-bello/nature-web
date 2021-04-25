@@ -5,6 +5,12 @@ Light green: #7ed56f
 Medium green: #55c57a
 Dark green: #28b485
 
+ANIMATION PROPERTIES
+animation-delay: 3s;
+animation-iteration-count: 3s;
+ etc;
+
+
 */
 
 * {
@@ -67,6 +73,7 @@ header {
   letter-spacing: 30px;
   animation-name: moveInLeft;
   animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 .heading-primary-sub {
